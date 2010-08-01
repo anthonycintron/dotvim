@@ -1,5 +1,7 @@
 set nocompatible
 
+let mapleader=","                   " He’s a mighty good leader
+
 silent! call pathogen#runtime_append_all_bundles()
 
 syntax enable                       " Syntax highlighting
@@ -42,7 +44,7 @@ set laststatus=2                    " Always show status bar
 " Status line information
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-colorscheme vividchalk
+colorscheme railscasts
 
 set tabstop=2                       " Global tab width
 set shiftwidth=2                    " Same again
