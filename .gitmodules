@@ -1,0 +1,36 @@
+[submodule "bundle/vim-makegreen"]
+	path = bundle/vim-makegreen
+	url = http://github.com/reinh/vim-makegreen.git
+[submodule "bundle/vim-git"]
+	path = bundle/vim-git
+	url = http://github.com/tpope/vim-git.git
+[submodule "bundle/vim-rooter"]
+	path = bundle/vim-rooter
+	url = http://github.com/airblade/vim-rooter.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = http://github.com/tpope/vim-rails.git
+[submodule "bundle/ack"]
+	path = bundle/ack
+	url = http://github.com/mileszs/ack.vim.git
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = http://github.com/tpope/vim-endwise.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = http://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-ragtag"]
+	path = bundle/vim-ragtag
+	url = http://github.com/tpope/vim-ragtag.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = http://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-tcomment"]
+	path = bundle/vim-tcomment
+	url = http://github.com/tsaleh/vim-tcomment.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = http://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = http://github.com/tpope/vim-markdown.git
