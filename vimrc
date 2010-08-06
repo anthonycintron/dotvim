@@ -78,6 +78,8 @@ map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
+map <leader>nt :NERDTreeToggle<cr>
+
 " Rails plugin shortcuts
 map <Leader>m :Rmodel<CR>
 map <Leader>c :Rcontroller<CR>
