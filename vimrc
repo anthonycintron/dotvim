@@ -58,6 +58,15 @@ set sidescrolloff=3                 " Columns of context around cursor
 set list                            " Display unprintable characters
 set listchars=tab:»·,trail:·        " How to display them
 
+" Removes trailing whitespace and ^M
+function RemoveWhitespace()
+  %s/\s\+$//e
+  %s/[ \t\r]\+$//e
+  ''
+endfunction
+
+map <leader>w :call RemoveWhitespace()<CR>
+
 set splitbelow                      " Open splits on the bottom
 set splitright                      "   and on the right
 
@@ -78,7 +87,11 @@ map <leader>tf :tabfirst<cr>
 map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
+" NERDTree
 map <leader>nt :NERDTreeToggle<cr>
+
+" Ack
+map <leader>F :Ack<space>
 
 " Rails plugin shortcuts
 map <Leader>m :Rmodel<CR>
@@ -96,3 +109,4 @@ map <Leader>sc :RScontroller<CR>
 map <Leader>sv :RSview<CR>
 map <Leader>su :RSunittest<CR>
 map <Leader>sf :RSfunctionaltest<CR>
+
