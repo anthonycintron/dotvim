@@ -110,3 +110,5 @@ map <Leader>sv :RSview<CR>
 map <Leader>su :RSunittest<CR>
 map <Leader>sf :RSfunctionaltest<CR>
 
+au BufNewFile,BufRead *.ru set syntax=ruby
+
