@@ -1,4 +1,4 @@
-set guifont=Inconsolata:h20     " Font family and size
+set guifont=AnonymousPro:h20     " Font family and size
 set encoding=utf-8              " Use UTF-8
 set guioptions-=T               " no toolbar
 set guioptions+=c               " use console dialogs
