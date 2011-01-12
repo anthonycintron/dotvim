@@ -58,6 +58,8 @@ set sidescrolloff=3                 " Columns of context around cursor
 set list                            " Display unprintable characters
 set listchars=tab:»·,trail:·        " How to display them
 
+au BufRead,BufNewFile   *.ru set syntax=ruby
+
 " Removes trailing whitespace and ^M
 function RemoveWhitespace()
   %s/\s\+$//e
