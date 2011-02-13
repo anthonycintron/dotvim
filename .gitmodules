@@ -55,3 +55,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/scss-syntax.vim"]
+	path = bundle/scss-syntax.vim
+	url = https://github.com/cakebaker/scss-syntax.vim.git
