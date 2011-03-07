@@ -72,6 +72,10 @@ map <leader>w :call RemoveWhitespace()<CR>
 set splitbelow                      " Open splits on the bottom
 set splitright                      "   and on the right
 
+
+" Clear search highlights
+map <leader>h :noh<cr>
+
 " Simpler window navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -115,6 +119,10 @@ map <Leader>sf :RSfunctionaltest<CR>
 au BufNewFile,BufRead *.ru set syntax=ruby
 
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
+
+" Add blank lines without entering insert mode
+map <leader>O O<Esc>
+map <leader>o o<Esc>
 
 function! s:align()
   let p = '^\s*|\s.*\s|\s*$'
